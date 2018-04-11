@@ -96,6 +96,6 @@ map.on('draw:created', function (e) {
     id = L.stamp(myRectangle); // The unique Leaflet ID for the layer
     map.addLayer(myRectangle);
     //myRectangle = layer; 
-    $('#shapes').append('<div class = "shape" data-leaftlet-id =' + id + '> Current ID:' + id, + ' </div>');
+    $('#shapes').append('<div class = "shape" data-leaftlet-id =' + id + '><h1> Current ID:' + id, + ' </h1></div>');
     
 });
